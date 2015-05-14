@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.8" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="server.Publisher" project="Hospital" file="/Hospital/src/server/Publisher.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="225" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="server.endPoints.PatientServiceInterface" project="Hospital" 
+    file="/Hospital/src/server/endPoints/PatientServiceInterface.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="162" x="7010" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="3" language="java" name="server.endPoints.UserServiceInterface" project="Hospital" 
+    file="/Hospital/src/server/endPoints/UserServiceInterface.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="242" x="2563" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="4" language="java" name="server.endPoints.NotificationServiceInterface" project="Hospital" 
+    file="/Hospital/src/server/endPoints/NotificationServiceInterface.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="220" x="6750" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="5" language="java" name="server.endPoints.ConsultationServiceInterface" project="Hospital" 
+    file="/Hospital/src/server/endPoints/ConsultationServiceInterface.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="216" x="1268" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="server.implementations.PatientService" project="Hospital" 
+    file="/Hospital/src/server/implementations/PatientService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="162" x="7010" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="server.implementations.UserService" project="Hospital" 
+    file="/Hospital/src/server/implementations/UserService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="242" x="4451" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="server.implementations.ConsultationService" project="Hospital" 
+    file="/Hospital/src/server/implementations/ConsultationService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="216" x="1268" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="server.implementations.NotificationService" project="Hospital" 
+    file="/Hospital/src/server/implementations/NotificationService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="220" x="6750" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="10" language="java" name="persistance.layer.SecretaryInterface" project="Hospital" 
+    file="/Hospital/src/persistance/layer/SecretaryInterface.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="213" x="7439" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <enumeration id="11" language="java" name="persistance.layer.UserType" project="Hospital" 
+    file="/Hospital/src/persistance/layer/UserType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="125" x="913" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="12" language="java" name="persistance.layer.Doctor" project="Hospital" 
+    file="/Hospital/src/persistance/layer/Doctor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="187" x="7212" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="persistance.layer.User" project="Hospital" 
+    file="/Hospital/src/persistance/layer/User.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="150" x="1078" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="persistance.layer.Consultation" project="Hospital" 
+    file="/Hospital/src/persistance/layer/Consultation.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="222" x="3164" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="persistance.layer.Secretary" project="Hospital" 
+    file="/Hospital/src/persistance/layer/Secretary.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="219" x="7439" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="persistance.layer.Patient" project="Hospital" 
+    file="/Hospital/src/persistance/layer/Patient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="195" x="4216" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="17" language="java" name="persistance.layer.DoctorInterface" project="Hospital" 
+    file="/Hospital/src/persistance/layer/DoctorInterface.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="175" x="7224" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="18" language="java" name="persistance.layer.Notification" project="Hospital" 
+    file="/Hospital/src/persistance/layer/Notification.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="160" x="1881" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="persistance.layer.mappers.UserMapper" project="Hospital" 
+    file="/Hospital/src/persistance/layer/mappers/UserMapper.groovy" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="298" x="2208" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="persistance.layer.mappers.PatientMapper" project="Hospital" 
+    file="/Hospital/src/persistance/layer/mappers/PatientMapper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="166" x="4010" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="persistance.layer.mappers.ConsultationMapper" project="Hospital" 
+    file="/Hospital/src/persistance/layer/mappers/ConsultationMapper.groovy" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="333" width="235" x="378" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="persistance.layer.connection.ConnectionManager" project="Hospital" 
+    file="/Hospital/src/persistance/layer/connection/ConnectionManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="160" x="1524" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="client.view.pages.AdminUpdateUserPage" project="Hospital" 
+    file="/Hospital/src/client/view/pages/AdminUpdateUserPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="199" x="4976" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="client.view.pages.AdminRemoveUserPage" project="Hospital" 
+    file="/Hospital/src/client/view/pages/AdminRemoveUserPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="162" x="3336" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="client.view.pages.DoctorViewConsultationsPage" project="Hospital" 
+    file="/Hospital/src/client/view/pages/DoctorViewConsultationsPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="197" x="4223" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="client.view.pages.SecretaryScheduleConsultationPage" project="Hospital" 
+    file="/Hospital/src/client/view/pages/SecretaryScheduleConsultationPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="495" width="233" x="4460" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="client.view.pages.SecretaryUpdateConsultationPage" project="Hospital" 
+    file="/Hospital/src/client/view/pages/SecretaryUpdateConsultationPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="495" width="220" x="6490" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="client.view.pages.AdminAddUserPage" project="Hospital" 
+    file="/Hospital/src/client/view/pages/AdminAddUserPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="199" x="5457" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="client.view.pages.AdminUserViewPage" project="Hospital" 
+    file="/Hospital/src/client/view/pages/AdminUserViewPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="155" x="4028" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="client.view.pages.DoctorUpdateConsultationPage" project="Hospital" 
+    file="/Hospital/src/client/view/pages/DoctorUpdateConsultationPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="495" width="202" x="5215" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="client.view.pages.DoctorViewNotificationsPage" project="Hospital" 
+    file="/Hospital/src/client/view/pages/DoctorViewNotificationsPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="203" x="4733" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="client.view.pages.SecretaryUpdatePatientPage" project="Hospital" 
+    file="/Hospital/src/client/view/pages/SecretaryUpdatePatientPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="495" width="189" x="3538" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="client.view.pages.DoctorAddConsultationPage" project="Hospital" 
+    file="/Hospital/src/client/view/pages/DoctorAddConsultationPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="495" width="184" x="5823" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="client.view.pages.SecretaryDeleteConsultationPage" project="Hospital" 
+    file="/Hospital/src/client/view/pages/SecretaryDeleteConsultationPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="216" x="3080" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="client.view.pages.IndexPage" project="Hospital" 
+    file="/Hospital/src/client/view/pages/IndexPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="87" x="5696" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="client.view.pages.Window" project="Hospital" 
+    file="/Hospital/src/client/view/pages/Window.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="109" x="4733" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="client.view.pages.SecretaryViewPatientsPage" project="Hospital" 
+    file="/Hospital/src/client/view/pages/SecretaryViewPatientsPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="184" x="6047" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="client.view.pages.SecretaryRemovePatientPage" project="Hospital" 
+    file="/Hospital/src/client/view/pages/SecretaryRemovePatientPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="195" x="2845" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="client.view.pages.LoginPage" project="Hospital" 
+    file="/Hospital/src/client/view/pages/LoginPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="315" width="221" x="3767" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="client.view.pages.SecretaryAddPatientPage" project="Hospital" 
+    file="/Hospital/src/client/view/pages/SecretaryAddPatientPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="495" width="179" x="6271" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="client.view.menu.Menu" project="Hospital" 
+    file="/Hospital/src/client/view/menu/Menu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="837" width="199" x="2925" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="client.view.Frame" project="Hospital" file="/Hospital/src/client/view/Frame.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="117" x="1724" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="client.view.Application" project="Hospital" 
+    file="/Hospital/src/client/view/Application.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="87" x="2081" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="client.data.PatientData" project="Hospital" 
+    file="/Hospital/src/client/data/PatientData.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="185" x="2700" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="client.data.NotificationData" project="Hospital" 
+    file="/Hospital/src/client/data/NotificationData.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="220" x="653" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="client.data.UserData" project="Hospital" 
+    file="/Hospital/src/client/data/UserData.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="265" x="3705" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="client.data.ConsultationData" project="Hospital" 
+    file="/Hospital/src/client/data/ConsultationData.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="239" x="3426" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="client.ClientEntryPoint" project="Hospital" 
+    file="/Hospital/src/client/ClientEntryPoint.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="114" x="2546" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="49">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="50" name="list"/>      
+      <multiplicity id="51" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="52">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <generalization id="53">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <generalization id="54">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <generalization id="55">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <realization id="56">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <generalization id="57">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <realization id="58">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="59">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="60">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <generalization id="61">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <realization id="62">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <generalization id="63">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <generalization id="64">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <generalization id="65">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <generalization id="66">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <generalization id="67">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <generalization id="68">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <generalization id="69">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <generalization id="70">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <generalization id="71">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <generalization id="72">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <realization id="73">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <generalization id="74">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
